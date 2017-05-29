@@ -1,0 +1,15 @@
+skyislife_slider.sky_slider.*:
+  type: config_entity
+  label: 'Sky slider config'
+  mapping:
+    id:
+      type: string
+      label: 'ID'
+    label:
+      type: label
+      label: 'Label'
+    uuid:
+      type: string
+    image:
+      type: string
+      label: 'Image'

@@ -1,0 +1,9 @@
+
+# Sky slider menu items definition
+entity.sky_slider.collection:
+  title: 'Sky slider'
+  route_name: entity.sky_slider.collection
+  description: 'List Sky slider (bundles)'
+  parent: system.admin_structure
+  weight: 99
+

@@ -1,0 +1,6 @@
+entity.sky_slider.add_form:
+  route_name: 'entity.sky_slider.add_form'
+  title: 'Add Sky slider'
+  appears_on:
+    - entity.sky_slider.collection
+
