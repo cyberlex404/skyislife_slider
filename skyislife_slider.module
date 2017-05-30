@@ -6,6 +6,7 @@
  */
 
 use Drupal\Core\Routing\RouteMatchInterface;
+use Drupal\Core\Template\Attribute;
 
 /**
  * Implements hook_help().
@@ -30,6 +31,14 @@ function skyislife_slider_theme() {
   return [
     'skyislife_slider' => [
       'render element' => 'children',
+    ],
+    'skyislife' => [
+      'variables' => [
+        'items' => [],
+        'attributes' => new Attribute(),
+      ],
+      'template' => 'skyislife',
+      'file' => 'skyislife_slider.skyislife.inc'
     ],
   ];
 }

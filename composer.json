@@ -1,14 +1,14 @@
 {
-  "name": "drupal/skyislife_slider",
-  "type": "drupal-module",
+  "name": "olia-litovka/skyislife_slider",
+  "type": "drupal-module-custom",
   "description": "My Awesome Module",
   "keywords": ["Drupal"],
   "license": "GPL-2.0+",
-  "homepage": "https://www.drupal.org/project/skyislife_slider",
+  "homepage": "https://github.com/olia-litovka/skyislife_slider",
   "minimum-stability": "dev",
   "support": {
-    "issues": "https://www.drupal.org/project/issues/skyislife_slider",
-    "source": "http://cgit.drupalcode.org/skyislife_slider"
+    "issues": "https://github.com/olia-litovka/skyislife_slider/issues",
+    "source": "https://github.com/olia-litovka/skyislife_slider"
   },
   "require": { }
 }
